@@ -12,8 +12,11 @@
 		C217E1B41CA50ED400ED8F77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C217E1B31CA50ED400ED8F77 /* ViewController.m */; };
 		C217E1B71CA50ED400ED8F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C217E1B51CA50ED400ED8F77 /* Main.storyboard */; };
 		C217E1B91CA50ED400ED8F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C217E1B81CA50ED400ED8F77 /* Assets.xcassets */; };
+
 		C217E1BC1CA50ED400ED8F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C217E1BA1CA50ED400ED8F77 /* LaunchScreen.storyboard */; };
+
 		C217E1C81CA5115500ED8F77 /* BddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C217E1C71CA5115500ED8F77 /* BddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C217E1C51CA5108900ED8F77 /* ADDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C217E1C41CA5108900ED8F77 /* ADDViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,8 @@
 		C217E1BD1CA50ED400ED8F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C217E1C61CA5115500ED8F77 /* BddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BddViewController.h; sourceTree = "<group>"; };
 		C217E1C71CA5115500ED8F77 /* BddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BddViewController.m; sourceTree = "<group>"; };
+		C217E1C31CA5108900ED8F77 /* ADDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDViewController.h; sourceTree = "<group>"; };
+		C217E1C41CA5108900ED8F77 /* ADDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,8 @@
 				C217E1AF1CA50ED400ED8F77 /* AppDelegate.h */,
 				C217E1B01CA50ED400ED8F77 /* AppDelegate.m */,
 				C217E1B21CA50ED400ED8F77 /* ViewController.h */,
+				C217E1C31CA5108900ED8F77 /* ADDViewController.h */,
+				C217E1C41CA5108900ED8F77 /* ADDViewController.m */,
 				C217E1B31CA50ED400ED8F77 /* ViewController.m */,
 				C217E1B51CA50ED400ED8F77 /* Main.storyboard */,
 				C217E1B81CA50ED400ED8F77 /* Assets.xcassets */,
@@ -156,6 +163,7 @@
 			files = (
 				C217E1B41CA50ED400ED8F77 /* ViewController.m in Sources */,
 				C217E1B11CA50ED400ED8F77 /* AppDelegate.m in Sources */,
+				C217E1C51CA5108900ED8F77 /* ADDViewController.m in Sources */,
 				C217E1AE1CA50ED400ED8F77 /* main.m in Sources */,
 				C217E1C81CA5115500ED8F77 /* BddViewController.m in Sources */,
 			);
